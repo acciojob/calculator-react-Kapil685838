@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='Calculator'>
+      <div id='calci' className='Calculator'>
         <form>
             <input type="text" value={result} />
         </form>
